@@ -1,15 +1,16 @@
+/* font style */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:wght@400;900&display=swap');
 /* 
 font-family: 'Inter', sans-serif;
 font-family: 'Merriweather', serif;
 */
-
+/* common related style */
 *{
     margin: 0;
     padding: 0;
     font-family: 'Inter', sans-serif;
 }
-
+/* banner Section */
 .container{
     position: relative;
     width: 85%;
@@ -21,8 +22,6 @@ font-family: 'Merriweather', serif;
     background-position: center center;
     background-size: 100% 100%;
     border-radius: 16px;
-    o
-}
 .banner{
     margin-top: 50px;
 }
