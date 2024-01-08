@@ -73,7 +73,7 @@ font-family: 'Merriweather', serif;
 .welcome{
     display: flex;
     gap: 20px;
-    justify-content: space-between;
+    
     margin-top: 50px;
     margin-bottom: 100px;
     background-image: linear-gradient(90deg, rgba(0,0,0,0.7763480392156863) 30%, rgba(255,255,255,0) 90%) ,url('../images/Vectorrr.png');
@@ -120,5 +120,6 @@ font-family: 'Merriweather', serif;
     border: 0;
 }
 .welcome-img img{
-    
+    background-position: center;
+    background-size: cover;
 }
