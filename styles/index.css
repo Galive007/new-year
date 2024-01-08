@@ -12,7 +12,6 @@ font-family: 'Merriweather', serif;
 }
 /* banner Section */
 .container{
-    position: relative;
     width: 85%;
     max-width: 1320px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ) ,url('../images/Banner\ Image.png');
@@ -22,6 +21,7 @@ font-family: 'Merriweather', serif;
     background-position: center center;
     background-size: 100% 100%;
     border-radius: 16px;
+}
 .banner{
     margin-top: 50px;
 }
