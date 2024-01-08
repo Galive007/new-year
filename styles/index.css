@@ -72,7 +72,8 @@ font-family: 'Merriweather', serif;
 /* welcome section */
 .welcome{
     display: flex;
-    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
     
     margin-top: 50px;
     margin-bottom: 100px;
@@ -86,9 +87,8 @@ font-family: 'Merriweather', serif;
 
 }
 .welcome-tittle{
-    margin-top: 126px;
     margin-left: 70px;
-    padding: 0 40px;
+    padding: 0 60px;
     color: #FFF;
     font-family: Merriweather;
     font-size: 64px;
@@ -97,9 +97,9 @@ font-family: 'Merriweather', serif;
     letter-spacing: 7.04px;
 }
 .welcome-para{
-    margin: 24px 0 45px;
+     margin: 24px 0 45px;
     margin-left: 70px;
-    padding: 0 40px;
+    padding: 0 60px;
     color: rgba(255, 255, 255, 0.80);
     font-family: Inter;
     font-size: 18px;
@@ -108,7 +108,7 @@ font-family: 'Merriweather', serif;
 }
 .btn-primary{
     margin-left: 90px;
-    padding: 0 50px;
+    padding: 0 60px;
     color: #FFF;
     text-align: center;
     font-family: Inter;
@@ -118,8 +118,12 @@ font-family: 'Merriweather', serif;
     text-transform: uppercase;
     background: transparent;
     border: 0;
+    cursor: pointer;
+    transition: all .5s;
 }
-.welcome-img img{
-    background-position: center;
-    background-size: cover;
+.btn-primary:hover{
+    color: gold;
+}
+.welcome .welcome-img img{
+    padding-right: 135px;
 }
