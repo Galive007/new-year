@@ -74,7 +74,6 @@ font-family: 'Merriweather', serif;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
     margin-top: 50px;
     margin-bottom: 100px;
     background-image: linear-gradient(90deg, rgba(0,0,0,0.7763480392156863) 30%, rgba(255,255,255,0) 90%) ,url('../images/Vectorrr.png');
@@ -83,9 +82,7 @@ font-family: 'Merriweather', serif;
     background-size: 100% 100%;
     border-radius: 16px;
 }
-.welcome-group{
 
-}
 .welcome-tittle{
     margin-left: 70px;
     padding: 0 60px;
@@ -101,7 +98,6 @@ font-family: 'Merriweather', serif;
     margin-left: 70px;
     padding: 0 60px;
     color: rgba(255, 255, 255, 0.80);
-    font-family: Inter;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px; /* 166.667% */
@@ -111,7 +107,6 @@ font-family: 'Merriweather', serif;
     padding: 0 60px;
     color: #FFF;
     text-align: center;
-    font-family: Inter;
     font-size: 20px;
     font-weight: 700;
     line-height: normal;
@@ -127,3 +122,10 @@ font-family: 'Merriweather', serif;
 .welcome .welcome-img img{
     padding-right: 135px;
 }
+    /* event section */
+.event{
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);;
+}
+/* width: 40%;
+    margin: 0 auto; */
