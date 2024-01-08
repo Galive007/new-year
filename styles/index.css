@@ -24,22 +24,48 @@ font-family: 'Merriweather', serif;
 }
 .banner{
     margin-top: 50px;
+    margin-bottom: 100px;
 }
 .banner-text{
+    text-align: center;
     padding: 180px 344px;
 }
 .banner-text h2{
     color: #FFF;
-    text-align: center;
     font-family: Merriweather;
     font-size: 32px;
     font-weight: 400;
 }
 .banner-text h1{
     color: #FFF;
-    text-align: center;
     font-family: Merriweather;
     font-size: 72px;
     font-weight: 900;
     line-height: 95px;
+}
+/* discount section */
+.discount{
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 400px;
+}
+.discount-percent{
+    margin-bottom: 40px;
+    color: #F00;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+}
+.discount-tittle{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+.discount-catagories{
+    margin: 16px 0 48px; 
+    color: #070211;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
 }
