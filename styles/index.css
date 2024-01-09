@@ -341,10 +341,36 @@ font-family: 'Merriweather', serif;
 }
 .subscribe-mail .subscribe-button input{
     text-align: center;
-    font-family: Inter;
     font-size: 20px;
-    font-style: normal;
     font-weight: 600;
     line-height: normal;
     text-transform: capitalize;
+}
+/* footer section */
+.footer-bg{
+    background: #070211;
+}
+.footer-top ,.footer-bottom{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.address ,.number{
+    margin: 110px 0 45px;
+}
+.address ,.number,.footer-bottom{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px; /* 166.667% */
+}
+hr{
+    border: 1px solid rgba(255, 255, 255, 0.15); 
+}
+.footer-middle{
+    text-align: center;
+    margin: 45px 0;
+}
+.footer-bottom{
+    margin: 45px 0 110px;
 }
