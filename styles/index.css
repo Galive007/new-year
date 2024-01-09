@@ -208,3 +208,40 @@ font-family: 'Merriweather', serif;
 .offer-year img{
     margin-top: 43px;
 }
+/* funtional section */
+.funtional{
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+    margin-bottom: 120px;
+}
+.funtional-details h4{
+    color: #070211;
+    font-size: 24px;
+    font-weight: 500;
+    }
+.funtional-details span{
+    color: #F00;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+}
+.funtional-details h1{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    margin-bottom: 25px;
+}
+.funtional-details p{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px; /* 160% */
+    margin-bottom: 60px;
+}
+/* This section img part will do after all sections completed*/
+
+
+/* gift products section */
