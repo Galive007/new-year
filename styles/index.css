@@ -332,12 +332,16 @@ font-family: 'Merriweather', serif;
     padding-left: 25px;
     padding-right: 350px;
 }
+
 .subscribe-mail .subscribe-button{
     margin-left: -120px;
     color: #FFF;
     border-radius: 0px 50px 50px 0px;
     background: #F00;
     padding: 24px 55px;
+}
+.subscribe-button:hover{
+    cursor: pointer;
 }
 .subscribe-mail .subscribe-button input{
     text-align: center;
