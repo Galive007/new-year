@@ -375,6 +375,9 @@ hr{
     text-align: center;
     margin: 45px 0;
 }
+.footer-middle img{
+    margin-right: 20px;
+}
 .footer-bottom{
     margin: 45px 0 110px;
 }
