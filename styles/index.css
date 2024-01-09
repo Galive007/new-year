@@ -186,10 +186,13 @@ font-family: 'Merriweather', serif;
     line-height: 32px; /* 160% */
 }
 .offer-pic{
-    margin: 0 130px 0 48px;
+    margin: 0 42px 0 48px;
     padding: 21px;
     border-radius: 463px;
     border: 15px solid #F00;
+}
+.offer-year{
+    width: 100%;
 }
 .offer-year .year{
     color: #F00;
